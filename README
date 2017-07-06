@@ -1,0 +1,7 @@
+Build docker image:  
+docker build -t my-prometheus .
+
+Run the docker image:
+docker run -p 9090:9090 my-prometheus
+
+To run the docker container in background add -d parameter
